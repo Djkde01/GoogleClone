@@ -54,6 +54,10 @@ body{
   display: flex;
   justify-content:space-between;
 }
+.search_bar:hover{
+  border: none;
+  box-shadow: 4px 5px 5px 0px #c4c4c4;
+}
 .search_bar input{
   border: transparent;
   width: 400px;
@@ -69,6 +73,16 @@ body{
 }
 .search_buttons button{
   border: none;
-  padding: 0 20px;
-  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 15px;
+}
+.search_buttons button:hover{
+  border: 1px solid #c4c4c4;
+}
+.message{
+  margin-top: 20px;
+}
+.message a{
+  color: blue;
 }
