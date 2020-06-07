@@ -49,15 +49,19 @@ a{
 .menu_user-avatar img{
   border-radius: 50px;
 }
+main{
+  margin-top: 150px;
+  text-align: center;
+}
 .icon{
-  width: 430px;
-  height: 154px;
-  padding: 50px 0;
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
-.search{
-  display: flex;
-  align-items: center;
+.icon img{
+  width: 300px;
 }
+
 .search_bar{
   border: 1px solid #c4c4c4;
   border-radius: 30px;
