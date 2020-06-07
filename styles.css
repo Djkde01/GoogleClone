@@ -132,11 +132,15 @@ main{
 }
 .footer{
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 0;
   bottom: 0;
   position: fixed;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4
 }
 .footer li{
   list-style: none;
@@ -151,7 +155,13 @@ main{
 }
 .footer_about{
   margin: 0 10px;
+  justify-self: left;
+
+}
+.footer_about ul{
+  padding-left: 0;
 }
 .footer_conditions{
   margin: 0 10px;
+  justify-self: right;
 }
